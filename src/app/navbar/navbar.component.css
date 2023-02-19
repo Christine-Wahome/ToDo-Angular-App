@@ -1,0 +1,10 @@
+.mat-toolbar{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-weight: bolder;
+    font-family:  Helvetica,Arial;
+    font-size: 30px;
+}
