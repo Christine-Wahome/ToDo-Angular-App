@@ -8,3 +8,15 @@ h1{
     font-family:  Helvetica,Arial;
     font-size: 30px;
 }
+
+.active{
+    color: red;
+}
+
+a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: rgb(138, 54, 217);
+    margin-left: 30px;
+}

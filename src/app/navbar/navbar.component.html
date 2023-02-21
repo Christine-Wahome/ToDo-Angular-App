@@ -1,5 +1,10 @@
 
 <mat-toolbar style="background-color: rgb(237, 215, 215); color: blueviolet;">
     <h1>My To-Do App</h1>
+    <!-- relative path -->
+    <a routerLink="login" routerLinkActive="active">Login</a>
+    <a [routerLink]='["register"]' routerLinkActive="active">Register</a>
+    <!-- Abosolute path -->
+    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Home</a>
 
 </mat-toolbar>

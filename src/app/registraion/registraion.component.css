@@ -1,0 +1,13 @@
+
+
+.text-danger{
+    color: red;
+    /* border-color: red; */
+}
+
+.btn {
+    background-color: blueviolet;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 16vw;
+}

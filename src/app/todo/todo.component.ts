@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { OnInit } from '@angular/core';
 import {FormGroup, FormBuilder, Validators } from '@angular/forms'
 import {CdkDragDrop, moveItemInArray, transferArrayItem} from '@angular/cdk/drag-drop';
-import { taskInterface } from '../model/taskInterface';
+import { taskInterface } from '../../model/taskInterface';
 
 @Component({
   selector: 'app-todo',
